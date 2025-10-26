@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Periodic Table — Modern Dark Theme</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Periodic Table of Elements</h1>
+        <p class="lead">Modern colored layout — dark theme. HTML &amp; CSS only (table + colspan/rowspan).</p>
+      </div>
+      <div class="legend" aria-hidden="true">
+        <div class="key"><span class="swatch" style="background:var(--alkali)"></span> Alkali</div>
+        <div class="key"><span class="swatch" style="background:var(--alkaline)"></span> Alkaline</div>
+        <div class="key"><span class="swatch" style="background:var(--transition)"></span> Transition</div>
+        <div class="key"><span class="swatch" style="background:var(--post-transition)"></span> Post-transition</div>
+        <div class="key"><span class="swatch" style="background:var(--metalloid)"></span> Metalloid</div>
+        <div class="key"><span class="swatch" style="background:var(--nonmetal)"></span> Nonmetal</div>
+        <div class="key"><span class="swatch" style="background:var(--halogen)"></span> Halogen</div>
+        <div class="key"><span class="swatch" style="background:var(--noble)"></span> Noble gas</div>
+        <div class="key"><span class="swatch" style="background:var(--lanth)"></span> Lanthanide</div>
+        <div class="key"><span class="swatch" style="background:var(--actin)"></span> Actinide</div>
+      </div>
+    </header>
+
+    <div class="periodic" role="region" aria-label="Periodic table">
+      <table role="table" aria-label="Periodic table">
+
+
+
+        <!-- first numbered row -->
+        <tr>
+          <td class="empty"></td> <!-- added this to align group numbers correctly -->
+
+          <td class="numbered-cell">1</td>
+          <td class="empty" colspan="16"></td>
+
+          <td class="numbered-cell">18</td>
+        </tr>
+
+        <!-- ROW 1 -->
+        <tr>
+          <td class="period-number">1</td>
+          <td colspan="1">
+            <div class="element alkali-h" title="Hydrogen (H)">
+              <div class="el-top"><span class="number">1</span></div>
+              <div class="el-symbol">H</div>
+              <div class="el-name">Hydrogen</div>
+              <div class="el-mass">1.008</div>
+            </div>
+          </td>
+
+          <td class="numbered-cell">2</td>
+          <td class="empty" colspan="10"></td>
+          <td class="numbered-cell">13</td>
+          <td class="numbered-cell">14</td>
+          <td class="numbered-cell">15</td>
+          <td class="numbered-cell">16</td>
+          <td class="numbered-cell">17</td>
+          <td>
+            <div class="element noble" title="Helium (He)">
+              <div class="el-top"><span class="number">2</span></div>
+              <div class="el-symbol">He</div>
+              <div class="el-name">Helium</div>
+              <div class="el-mass">4.0026</div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- ROW 2 -->
+        <tr>
+          <td class="period-number">2</td>
+          <td>
+            <div class="element alkali" title="Lithium (Li)">
+              <div class="el-top"><span class="number">3</span></div>
+              <div class="el-symbol">Li</div>
+              <div class="el-name">Lithium</div>
+              <div class="el-mass">6.94</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element alkaline" title="Beryllium (Be)">
+              <div class="el-top"><span class="number">4</span></div>
+              <div class="el-symbol">Be</div>
+              <div class="el-name">Beryllium</div>
+              <div class="el-mass">9.0122</div>
+            </div>
+          </td>
+
+          <td class="empty" colspan="10"></td>
+
+          <td>
+            <div class="element metalloid" title="Boron (B)">
+              <div class="el-top"><span class="number">5</span></div>
+              <div class="el-symbol">B</div>
+              <div class="el-name">Boron</div>
+              <div class="el-mass">10.81</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element nonmetal" title="Carbon (C)">
+              <div class="el-top"><span class="number">6</span></div>
+              <div class="el-symbol">C</div>
+              <div class="el-name">Carbon</div>
+              <div class="el-mass">12.011</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element nonmetal" title="Nitrogen (N)">
+              <div class="el-top"><span class="number">7</span></div>
+              <div class="el-symbol">N</div>
+              <div class="el-name">Nitrogen</div>
+              <div class="el-mass">14.007</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element nonmetal" title="Oxygen (O)">
+              <div class="el-top"><span class="number">8</span></div>
+              <div class="el-symbol">O</div>
+              <div class="el-name">Oxygen</div>
+              <div class="el-mass">15.999</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element halogen" title="Fluorine (F)">
+              <div class="el-top"><span class="number">9</span></div>
+              <div class="el-symbol">F</div>
+              <div class="el-name">Fluorine</div>
+              <div class="el-mass">18.998</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element noble" title="Neon (Ne)">
+              <div class="el-top"><span class="number">10</span></div>
+              <div class="el-symbol">Ne</div>
+              <div class="el-name">Neon</div>
+              <div class="el-mass">20.180</div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- ROW 3 -->
+        <tr>
+          <td class="period-number">3</td>
+
+          <td>
+            <div class="element alkali" title="Sodium (Na)">
+              <div class="el-top"><span class="number">11</span></div>
+              <div class="el-symbol">Na</div>
+              <div class="el-name">Sodium</div>
+              <div class="el-mass">22.990</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element alkaline" title="Magnesium (Mg)">
+              <div class="el-top"><span class="number">12</span></div>
+              <div class="el-symbol">Mg</div>
+              <div class="el-name">Magnesium</div>
+              <div class="el-mass">24.305</div>
+            </div>
+          </td>
+
+          <td class="numbered-cell">3</td>
+          <td class="numbered-cell">4</td>
+          <td class="numbered-cell">5</td>
+          <td class="numbered-cell">6</td>
+          <td class="numbered-cell">7</td>
+          <td class="numbered-cell">8</td>
+          <td class="numbered-cell">9</td>
+          <td class="numbered-cell">10</td>
+          <td class="numbered-cell">11</td>
+          <td class="numbered-cell">12</td>
+
+          <td>
+            <div class="element metalloid" title="Aluminium (Al)">
+              <div class="el-top"><span class="number">13</span></div>
+              <div class="el-symbol">Al</div>
+              <div class="el-name">Aluminium</div>
+              <div class="el-mass">26.982</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element post-transition" title="Silicon (Si)">
+              <div class="el-top"><span class="number">14</span></div>
+              <div class="el-symbol">Si</div>
+              <div class="el-name">Silicon</div>
+              <div class="el-mass">28.085</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element nonmetal" title="Phosphorus (P)">
+              <div class="el-top"><span class="number">15</span></div>
+              <div class="el-symbol">P</div>
+              <div class="el-name">Phosphorus</div>
+              <div class="el-mass">30.974</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element nonmetal" title="Sulfur (S)">
+              <div class="el-top"><span class="number">16</span></div>
+              <div class="el-symbol">S</div>
+              <div class="el-name">Sulfur</div>
+              <div class="el-mass">32.06</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element halogen" title="Chlorine (Cl)">
+              <div class="el-top"><span class="number">17</span></div>
+              <div class="el-symbol">Cl</div>
+              <div class="el-name">Chlorine</div>
+              <div class="el-mass">35.45</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element noble" title="Argon (Ar)">
+              <div class="el-top"><span class="number">18</span></div>
+              <div class="el-symbol">Ar</div>
+              <div class="el-name">Argon</div>
+              <div class="el-mass">39.948</div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- ROW 4 -->
+        <tr>
+          <td class="period-number">4</td>
+
+          <td>
+            <div class="element alkali" title="Potassium (K)">
+              <div class="el-top"><span class="number">19</span></div>
+              <div class="el-symbol">K</div>
+              <div class="el-name">Potassium</div>
+              <div class="el-mass">39.098</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element alkaline" title="Calcium (Ca)">
+              <div class="el-top"><span class="number">20</span></div>
+              <div class="el-symbol">Ca</div>
+              <div class="el-name">Calcium</div>
+              <div class="el-mass">40.078</div>
+            </div>
+          </td>
+
+          <!-- Transition metals (Sc -> Zn) occupy columns 3-12 -->
+          <td>
+            <div class="element transition" title="Scandium (Sc)">
+              <div class="el-top"><span class="number">21</span></div>
+              <div class="el-symbol">Sc</div>
+              <div class="el-name">Scandium</div>
+              <div class="el-mass">44.956</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Titanium (Ti)">
+              <div class="el-top"><span class="number">22</span></div>
+              <div class="el-symbol">Ti</div>
+              <div class="el-name">Titanium</div>
+              <div class="el-mass">47.867</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Vanadium (V)">
+              <div class="el-top"><span class="number">23</span></div>
+              <div class="el-symbol">V</div>
+              <div class="el-name">Vanadium</div>
+              <div class="el-mass">50.942</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Chromium (Cr)">
+              <div class="el-top"><span class="number">24</span></div>
+              <div class="el-symbol">Cr</div>
+              <div class="el-name">Chromium</div>
+              <div class="el-mass">51.996</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Manganese (Mn)">
+              <div class="el-top"><span class="number">25</span></div>
+              <div class="el-symbol">Mn</div>
+              <div class="el-name">Manganese</div>
+              <div class="el-mass">54.938</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Iron (Fe)">
+              <div class="el-top"><span class="number">26</span></div>
+              <div class="el-symbol">Fe</div>
+              <div class="el-name">Iron</div>
+              <div class="el-mass">55.845</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Cobalt (Co)">
+              <div class="el-top"><span class="number">27</span></div>
+              <div class="el-symbol">Co</div>
+              <div class="el-name">Cobalt</div>
+              <div class="el-mass">58.933</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Nickel (Ni)">
+              <div class="el-top"><span class="number">28</span></div>
+              <div class="el-symbol">Ni</div>
+              <div class="el-name">Nickel</div>
+              <div class="el-mass">58.693</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Copper (Cu)">
+              <div class="el-top"><span class="number">29</span></div>
+              <div class="el-symbol">Cu</div>
+              <div class="el-name">Copper</div>
+              <div class="el-mass">63.546</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Zinc (Zn)">
+              <div class="el-top"><span class="number">30</span></div>
+              <div class="el-symbol">Zn</div>
+              <div class="el-name">Zinc</div>
+              <div class="el-mass">65.38</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element metalloid" title="Gallium (Ga)">
+              <div class="el-top"><span class="number">31</span></div>
+              <div class="el-symbol">Ga</div>
+              <div class="el-name">Gallium</div>
+              <div class="el-mass">69.723</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element post-transition" title="Germanium (Ge)">
+              <div class="el-top"><span class="number">32</span></div>
+              <div class="el-symbol">Ge</div>
+              <div class="el-name">Germanium</div>
+              <div class="el-mass">72.630</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element metalloid" title="Arsenic (As)">
+              <div class="el-top"><span class="number">33</span></div>
+              <div class="el-symbol">As</div>
+              <div class="el-name">Arsenic</div>
+              <div class="el-mass">74.922</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element nonmetal" title="Selenium (Se)">
+              <div class="el-top"><span class="number">34</span></div>
+              <div class="el-symbol">Se</div>
+              <div class="el-name">Selenium</div>
+              <div class="el-mass">78.971</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element halogen" title="Bromine (Br)">
+              <div class="el-top"><span class="number">35</span></div>
+              <div class="el-symbol">Br</div>
+              <div class="el-name">Bromine</div>
+              <div class="el-mass">79.904</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element noble" title="Krypton (Kr)">
+              <div class="el-top"><span class="number">36</span></div>
+              <div class="el-symbol">Kr</div>
+              <div class="el-name">Krypton</div>
+              <div class="el-mass">83.798</div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- ROW 5 -->
+        <tr>
+          <td class="period-number">5</td>
+
+          <td>
+            <div class="element alkali" title="Rubidium (Rb)">
+              <div class="el-top"><span class="number">37</span></div>
+              <div class="el-symbol">Rb</div>
+              <div class="el-name">Rubidium</div>
+              <div class="el-mass">85.468</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element alkaline" title="Strontium (Sr)">
+              <div class="el-top"><span class="number">38</span></div>
+              <div class="el-symbol">Sr</div>
+              <div class="el-name">Strontium</div>
+              <div class="el-mass">87.62</div>
+            </div>
+          </td>
+
+          <!-- Transition metals (Y -> Cd) -->
+          <td>
+            <div class="element transition" title="Yttrium (Y)">
+              <div class="el-top"><span class="number">39</span></div>
+              <div class="el-symbol">Y</div>
+              <div class="el-name">Yttrium</div>
+              <div class="el-mass">88.906</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Zirconium (Zr)">
+              <div class="el-top"><span class="number">40</span></div>
+              <div class="el-symbol">Zr</div>
+              <div class="el-name">Zirconium</div>
+              <div class="el-mass">91.224</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Niobium (Nb)">
+              <div class="el-top"><span class="number">41</span></div>
+              <div class="el-symbol">Nb</div>
+              <div class="el-name">Niobium</div>
+              <div class="el-mass">92.906</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Molybdenum (Mo)">
+              <div class="el-top"><span class="number">42</span></div>
+              <div class="el-symbol">Mo</div>
+              <div class="el-name">Molybdenum</div>
+              <div class="el-mass">95.95</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Technetium (Tc)">
+              <div class="el-top"><span class="number">43</span></div>
+              <div class="el-symbol">Tc</div>
+              <div class="el-name">Technetium</div>
+              <div class="el-mass">98</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Ruthenium (Ru)">
+              <div class="el-top"><span class="number">44</span></div>
+              <div class="el-symbol">Ru</div>
+              <div class="el-name">Ruthenium</div>
+              <div class="el-mass">101.07</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Rhodium (Rh)">
+              <div class="el-top"><span class="number">45</span></div>
+              <div class="el-symbol">Rh</div>
+              <div class="el-name">Rhodium</div>
+              <div class="el-mass">102.91</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Palladium (Pd)">
+              <div class="el-top"><span class="number">46</span></div>
+              <div class="el-symbol">Pd</div>
+              <div class="el-name">Palladium</div>
+              <div class="el-mass">106.42</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Silver (Ag)">
+              <div class="el-top"><span class="number">47</span></div>
+              <div class="el-symbol">Ag</div>
+              <div class="el-name">Silver</div>
+              <div class="el-mass">107.87</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Cadmium (Cd)">
+              <div class="el-top"><span class="number">48</span></div>
+              <div class="el-symbol">Cd</div>
+              <div class="el-name">Cadmium</div>
+              <div class="el-mass">112.41</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element post-transition" title="Indium (In)">
+              <div class="el-top"><span class="number">49</span></div>
+              <div class="el-symbol">In</div>
+              <div class="el-name">Indium</div>
+              <div class="el-mass">114.82</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element post-transition" title="Tin (Sn)">
+              <div class="el-top"><span class="number">50</span></div>
+              <div class="el-symbol">Sn</div>
+              <div class="el-name">Tin</div>
+              <div class="el-mass">118.71</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element metalloid" title="Antimony (Sb)">
+              <div class="el-top"><span class="number">51</span></div>
+              <div class="el-symbol">Sb</div>
+              <div class="el-name">Antimony</div>
+              <div class="el-mass">121.76</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element nonmetal" title="Tellurium (Te)">
+              <div class="el-top"><span class="number">52</span></div>
+              <div class="el-symbol">Te</div>
+              <div class="el-name">Tellurium</div>
+              <div class="el-mass">127.60</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element halogen" title="Iodine (I)">
+              <div class="el-top"><span class="number">53</span></div>
+              <div class="el-symbol">I</div>
+              <div class="el-name">Iodine</div>
+              <div class="el-mass">126.90</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element noble" title="Xenon (Xe)">
+              <div class="el-top"><span class="number">54</span></div>
+              <div class="el-symbol">Xe</div>
+              <div class="el-name">Xenon</div>
+              <div class="el-mass">131.29</div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- ROW 6 -->
+        <tr>
+          <td class="period-number">6</td>
+
+          <td>
+            <div class="element alkali" title="Cesium (Cs)">
+              <div class="el-top"><span class="number">55</span></div>
+              <div class="el-symbol">Cs</div>
+              <div class="el-name">Cesium</div>
+              <div class="el-mass">132.91</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element alkaline" title="Barium (Ba)">
+              <div class="el-top"><span class="number">56</span></div>
+              <div class="el-symbol">Ba</div>
+              <div class="el-name">Barium</div>
+              <div class="el-mass">137.33</div>
+            </div>
+          </td>
+
+          <!-- Lanthanides -->
+          <td>
+            <div class="element transition series" title="Lanthanides">
+              <div class="el-top"><span class="number">57–71</span></div>
+              <div class="el-symbol">57–71</div>
+              <div class="el-name-xsmall">Lanthanides</div>
+            </div>
+          </td>
+
+          <!-- Lanthanide placeholder marker uses rowspan -->
+          <td>
+            <div class="element transition" title="Hafnium (Hf)">
+              <div class="el-top"><span class="number">72</span></div>
+              <div class="el-symbol">Hf</div>
+              <div class="el-name">Hafnium</div>
+              <div class="el-mass">178.49</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Tantalum (Ta)">
+              <div class="el-top"><span class="number">73</span></div>
+              <div class="el-symbol">Ta</div>
+              <div class="el-name">Tantalum</div>
+              <div class="el-mass">180.95</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Tungsten (W)">
+              <div class="el-top"><span class="number">74</span></div>
+              <div class="el-symbol">W</div>
+              <div class="el-name">Tungsten</div>
+              <div class="el-mass">183.84</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Rhenium (Re)">
+              <div class="el-top"><span class="number">75</span></div>
+              <div class="el-symbol">Re</div>
+              <div class="el-name">Rhenium</div>
+              <div class="el-mass">186.21</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Osmium (Os)">
+              <div class="el-top"><span class="number">76</span></div>
+              <div class="el-symbol">Os</div>
+              <div class="el-name">Osmium</div>
+              <div class="el-mass">190.23</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Iridium (Ir)">
+              <div class="el-top"><span class="number">77</span></div>
+              <div class="el-symbol">Ir</div>
+              <div class="el-name">Iridium</div>
+              <div class="el-mass">192.22</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Platinum (Pt)">
+              <div class="el-top"><span class="number">78</span></div>
+              <div class="el-symbol">Pt</div>
+              <div class="el-name">Platinum</div>
+              <div class="el-mass">195.08</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Gold (Au)">
+              <div class="el-top"><span class="number">79</span></div>
+              <div class="el-symbol">Au</div>
+              <div class="el-name">Gold</div>
+              <div class="el-mass">196.97</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Mercury (Hg)">
+              <div class="el-top"><span class="number">80</span></div>
+              <div class="el-symbol">Hg</div>
+              <div class="el-name">Mercury</div>
+              <div class="el-mass">200.59</div>
+            </div>
+          </td>
+          <td>
+            <div class="element post-transition" title="Thallium (Tl)">
+              <div class="el-top"><span class="number">81</span></div>
+              <div class="el-symbol">Tl</div>
+              <div class="el-name">Thallium</div>
+              <div class="el-mass">204.38</div>
+            </div>
+          </td>
+          <td>
+            <div class="element post-transition" title="Lead (Pb)">
+              <div class="el-top"><span class="number">82</span></div>
+              <div class="el-symbol">Pb</div>
+              <div class="el-name">Lead</div>
+              <div class="el-mass">207.2</div>
+            </div>
+          </td>
+          <td>
+            <div class="element post-transition" title="Bismuth (Bi)">
+              <div class="el-top"><span class="number">83</span></div>
+              <div class="el-symbol">Bi</div>
+              <div class="el-name">Bismuth</div>
+              <div class="el-mass">208.98</div>
+            </div>
+          </td>
+          <td>
+            <div class="element metalloid" title="Polonium (Po)">
+              <div class="el-top"><span class="number">84</span></div>
+              <div class="el-symbol">Po</div>
+              <div class="el-name">Polonium</div>
+              <div class="el-mass">209</div>
+            </div>
+          </td>
+          <td>
+            <div class="element halogen" title="Astatine (At)">
+              <div class="el-top"><span class="number">85</span></div>
+              <div class="el-symbol">At</div>
+              <div class="el-name">Astatine</div>
+              <div class="el-mass">210</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element noble" title="Radon (Rn)">
+              <div class="el-top"><span class="number">86</span></div>
+              <div class="el-symbol">Rn</div>
+              <div class="el-name">Radon</div>
+              <div class="el-mass">222</div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- ROW 7 -->
+        <tr>
+          <td class="period-number">7</td>
+
+          <td>
+            <div class="element alkali" title="Francium (Fr)">
+              <div class="el-top"><span class="number">87</span></div>
+              <div class="el-symbol">Fr</div>
+              <div class="el-name">Francium</div>
+              <div class="el-mass">223</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element alkaline" title="Radium (Ra)">
+              <div class="el-top"><span class="number">88</span></div>
+              <div class="el-symbol">Ra</div>
+              <div class="el-name">Radium</div>
+              <div class="el-mass">226</div>
+            </div>
+          </td>
+
+          <!-- Actinides -->
+          <td>
+            <div class="element transition series" title="Actinides">
+              <div class="el-top-small"><span class="number">89–103</span></div>
+              <div class="el-symbol">89–103</div>
+              <div class="el-name-small">Actinides</div>
+            </div>
+          </td>
+
+          <!-- Transition (Rf -> Cn) -->
+          <td>
+            <div class="element transition" title="Rutherfordium (Rf)">
+              <div class="el-top"><span class="number">104</span></div>
+              <div class="el-symbol">Rf</div>
+              <div class="el-name">Rutherfordium</div>
+              <div class="el-mass">267</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Dubnium (Db)">
+              <div class="el-top"><span class="number">105</span></div>
+              <div class="el-symbol">Db</div>
+              <div class="el-name">Dubnium</div>
+              <div class="el-mass">268</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Seaborgium (Sg)">
+              <div class="el-top"><span class="number">106</span></div>
+              <div class="el-symbol">Sg</div>
+              <div class="el-name">Seaborgium</div>
+              <div class="el-mass">269</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Bohrium (Bh)">
+              <div class="el-top"><span class="number">107</span></div>
+              <div class="el-symbol">Bh</div>
+              <div class="el-name">Bohrium</div>
+              <div class="el-mass">270</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Hassium (Hs)">
+              <div class="el-top"><span class="number">108</span></div>
+              <div class="el-symbol">Hs</div>
+              <div class="el-name">Hassium</div>
+              <div class="el-mass">269</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Meitnerium (Mt)">
+              <div class="el-top"><span class="number">109</span></div>
+              <div class="el-symbol">Mt</div>
+              <div class="el-name">Meitnerium</div>
+              <div class="el-mass">278</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Darmstadtium (Ds)">
+              <div class="el-top"><span class="number">110</span></div>
+              <div class="el-symbol">Ds</div>
+              <div class="el-name">Darmstadtium</div>
+              <div class="el-mass">281</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Roentgenium (Rg)">
+              <div class="el-top"><span class="number">111</span></div>
+              <div class="el-symbol">Rg</div>
+              <div class="el-name">Roentgenium</div>
+              <div class="el-mass">282</div>
+            </div>
+          </td>
+          <td>
+            <div class="element transition" title="Copernicium (Cn)">
+              <div class="el-top"><span class="number">112</span></div>
+              <div class="el-symbol">Cn</div>
+              <div class="el-name">Copernicium</div>
+              <div class="el-mass">285</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element post-transition" title="Nihonium (Nh)">
+              <div class="el-top"><span class="number">113</span></div>
+              <div class="el-symbol">Nh</div>
+              <div class="el-name">Nihonium</div>
+              <div class="el-mass">286</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element post-transition" title="Flerovium (Fl)">
+              <div class="el-top"><span class="number">114</span></div>
+              <div class="el-symbol">Fl</div>
+              <div class="el-name">Flerovium</div>
+              <div class="el-mass">289</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element post-transition" title="Moscovium (Mc)">
+              <div class="el-top"><span class="number">115</span></div>
+              <div class="el-symbol">Mc</div>
+              <div class="el-name">Moscovium</div>
+              <div class="el-mass">290</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element post-transition" title="Livermorium (Lv)">
+              <div class="el-top"><span class="number">116</span></div>
+              <div class="el-symbol">Lv</div>
+              <div class="el-name">Livermorium</div>
+              <div class="el-mass">293</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element metalloid" title="Tennessine (Ts)">
+              <div class="el-top"><span class="number">117</span></div>
+              <div class="el-symbol">Ts</div>
+              <div class="el-name">Tennessine</div>
+              <div class="el-mass">294</div>
+            </div>
+          </td>
+
+          <td>
+            <div class="element noble" title="Oganesson (Og)">
+              <div class="el-top"><span class="number">118</span></div>
+              <div class="el-symbol">Og</div>
+              <div class="el-name">Oganesson</div>
+              <div class="el-mass">294</div>
+            </div>
+          </td>
+
+        </tr>
+        <!-- Spacer row -->
+        <tr class="spacer-row">
+          <td colspan="19"></td>
+        </tr>
+        <!-- Lanthanides row -->
+        <tr>
+          <td class="empty"></td>
+          <td colspan="2" class="series-label">Lanthanides (57–71):</td>
+          <td>
+            <div class="element lanth" title="Lanthanum (La)">
+              <div class="el-top"><span class="number">57</span></div>
+              <div class="el-symbol">La</div>
+              <div class="el-name">Lanthanum</div>
+              <div class="el-mass">138.91</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Cerium (Ce)">
+              <div class="el-top"><span class="number">58</span></div>
+              <div class="el-symbol">Ce</div>
+              <div class="el-name">Cerium</div>
+              <div class="el-mass">140.12</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Praseodymium (Pr)">
+              <div class="el-top"><span class="number">59</span></div>
+              <div class="el-symbol">Pr</div>
+              <div class="el-name">Praseodymium</div>
+              <div class="el-mass">140.91</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Neodymium (Nd)">
+              <div class="el-top"><span class="number">60</span></div>
+              <div class="el-symbol">Nd</div>
+              <div class="el-name">Neodymium</div>
+              <div class="el-mass">144.24</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Promethium (Pm)">
+              <div class="el-top"><span class="number">61</span></div>
+              <div class="el-symbol">Pm</div>
+              <div class="el-name">Promethium</div>
+              <div class="el-mass">145</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Samarium (Sm)">
+              <div class="el-top"><span class="number">62</span></div>
+              <div class="el-symbol">Sm</div>
+              <div class="el-name">Samarium</div>
+              <div class="el-mass">150.36</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Europium (Eu)">
+              <div class="el-top"><span class="number">63</span></div>
+              <div class="el-symbol">Eu</div>
+              <div class="el-name">Europium</div>
+              <div class="el-mass">151.96</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Gadolinium (Gd)">
+              <div class="el-top"><span class="number">64</span></div>
+              <div class="el-symbol">Gd</div>
+              <div class="el-name">Gadolinium</div>
+              <div class="el-mass">157.25</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Terbium (Tb)">
+              <div class="el-top"><span class="number">65</span></div>
+              <div class="el-symbol">Tb</div>
+              <div class="el-name">Terbium</div>
+              <div class="el-mass">158.93</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Dysprosium (Dy)">
+              <div class="el-top"><span class="number">66</span></div>
+              <div class="el-symbol">Dy</div>
+              <div class="el-name">Dysprosium</div>
+              <div class="el-mass">162.50</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Holmium (Ho)">
+              <div class="el-top"><span class="number">67</span></div>
+              <div class="el-symbol">Ho</div>
+              <div class="el-name">Holmium</div>
+              <div class="el-mass">164.93</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Erbium (Er)">
+              <div class="el-top"><span class="number">68</span></div>
+              <div class="el-symbol">Er</div>
+              <div class="el-name">Erbium</div>
+              <div class="el-mass">167.26</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Thulium (Tm)">
+              <div class="el-top"><span class="number">69</span></div>
+              <div class="el-symbol">Tm</div>
+              <div class="el-name">Thulium</div>
+              <div class="el-mass">168.93</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Ytterbium (Yb)">
+              <div class="el-top"><span class="number">70</span></div>
+              <div class="el-symbol">Yb</div>
+              <div class="el-name">Ytterbium</div>
+              <div class="el-mass">173.05</div>
+            </div>
+          </td>
+          <td>
+            <div class="element lanth" title="Lutetium (Lu)">
+              <div class="el-top"><span class="number">71</span></div>
+              <div class="el-symbol">Lu</div>
+              <div class="el-name">Lutetium</div>
+              <div class="el-mass">174.97</div>
+            </div>
+          </td>
+        </tr>
+
+        <!-- Actinides row -->
+        <tr>
+          <td class="empty"></td>
+          <td colspan="2" class="series-label">Actinides (89–103):</td>
+          <td>
+            <div class="element actin" title="Actinium (Ac)">
+              <div class="el-top"><span class="number">89</span></div>
+              <div class="el-symbol">Ac</div>
+              <div class="el-name">Actinium</div>
+              <div class="el-mass">227</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Thorium (Th)">
+              <div class="el-top"><span class="number">90</span></div>
+              <div class="el-symbol">Th</div>
+              <div class="el-name">Thorium</div>
+              <div class="el-mass">232.04</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Protactinium (Pa)">
+              <div class="el-top"><span class="number">91</span></div>
+              <div class="el-symbol">Pa</div>
+              <div class="el-name">Protactinium</div>
+              <div class="el-mass">231.04</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Uranium (U)">
+              <div class="el-top"><span class="number">92</span></div>
+              <div class="el-symbol">U</div>
+              <div class="el-name">Uranium</div>
+              <div class="el-mass">238.03</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Neptunium (Np)">
+              <div class="el-top"><span class="number">93</span></div>
+              <div class="el-symbol">Np</div>
+              <div class="el-name">Neptunium</div>
+              <div class="el-mass">237</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Plutonium (Pu)">
+              <div class="el-top"><span class="number">94</span></div>
+              <div class="el-symbol">Pu</div>
+              <div class="el-name">Plutonium</div>
+              <div class="el-mass">244</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Americium (Am)">
+              <div class="el-top"><span class="number">95</span></div>
+              <div class="el-symbol">Am</div>
+              <div class="el-name">Americium</div>
+              <div class="el-mass">243</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Curium (Cm)">
+              <div class="el-top"><span class="number">96</span></div>
+              <div class="el-symbol">Cm</div>
+              <div class="el-name">Curium</div>
+              <div class="el-mass">247</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Berkelium (Bk)">
+              <div class="el-top"><span class="number">97</span></div>
+              <div class="el-symbol">Bk</div>
+              <div class="el-name">Berkelium</div>
+              <div class="el-mass">247</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Californium (Cf)">
+              <div class="el-top"><span class="number">98</span></div>
+              <div class="el-symbol">Cf</div>
+              <div class="el-name">Californium</div>
+              <div class="el-mass">251</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Einsteinium (Es)">
+              <div class="el-top"><span class="number">99</span></div>
+              <div class="el-symbol">Es</div>
+              <div class="el-name">Einsteinium</div>
+              <div class="el-mass">252</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Fermium (Fm)">
+              <div class="el-top"><span class="number">100</span></div>
+              <div class="el-symbol">Fm</div>
+              <div class="el-name">Fermium</div>
+              <div class="el-mass">257</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Mendelevium (Md)">
+              <div class="el-top"><span class="number">101</span></div>
+              <div class="el-symbol">Md</div>
+              <div class="el-name">Mendelevium</div>
+              <div class="el-mass">258</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Nobelium (No)">
+              <div class="el-top"><span class="number">102</span></div>
+              <div class="el-symbol">No</div>
+              <div class="el-name">Nobelium</div>
+              <div class="el-mass">259</div>
+            </div>
+          </td>
+          <td>
+            <div class="element actin" title="Lawrencium (Lr)">
+              <div class="el-top"><span class="number">103</span></div>
+              <div class="el-symbol">Lr</div>
+              <div class="el-name">Lawrencium</div>
+              <div class="el-mass">266</div>
+            </div>
+          </td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+
+  <footer class="footer">
+    Developed with <span class="heart">❤️</span> by <a href="https://hassanjaveds.netlify.app/" target="_blank"
+      rel="noopener noreferrer" class="author-link">Hassan Javed</a>
+  </footer>
+  </div>
+
+
+</body>
+
+</html>
+
+<!-- Designed and Developed By Hassan Javed -->
