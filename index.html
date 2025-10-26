@@ -5,11 +5,13 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Periodic Table — Modern Dark Theme</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <div class="wrap">
+    <!-- header section start -->
     <header>
       <div>
         <h1>Periodic Table of Elements</h1>
@@ -28,7 +30,9 @@
         <div class="key"><span class="swatch" style="background:var(--actin)"></span> Actinide</div>
       </div>
     </header>
+    <!-- header section end -->
 
+    <!-- Table start -->
     <div class="periodic" role="region" aria-label="Periodic table">
       <table role="table" aria-label="Periodic table">
 
@@ -261,7 +265,7 @@
             </div>
           </td>
 
-          <!-- Transition metals (Sc -> Zn) occupy columns 3-12 -->
+
           <td>
             <div class="element transition" title="Scandium (Sc)">
               <div class="el-top"><span class="number">21</span></div>
@@ -420,7 +424,7 @@
             </div>
           </td>
 
-          <!-- Transition metals (Y -> Cd) -->
+
           <td>
             <div class="element transition" title="Yttrium (Y)">
               <div class="el-top"><span class="number">39</span></div>
@@ -588,7 +592,7 @@
             </div>
           </td>
 
-          <!-- Lanthanide placeholder marker uses rowspan -->
+
           <td>
             <div class="element transition" title="Hafnium (Hf)">
               <div class="el-top"><span class="number">72</span></div>
@@ -743,7 +747,7 @@
             </div>
           </td>
 
-          <!-- Transition (Rf -> Cn) -->
+
           <td>
             <div class="element transition" title="Rutherfordium (Rf)">
               <div class="el-top"><span class="number">104</span></div>
@@ -1131,14 +1135,16 @@
       </table>
     </div>
   </div>
-
-  <footer class="footer">
-    Developed with <span class="heart">❤️</span> by <a href="https://hassanjaveds.netlify.app/" target="_blank"
-      rel="noopener noreferrer" class="author-link">Hassan Javed</a>
-  </footer>
   </div>
+  <!-- Table end -->
 
-
+  <!-- Footer start -->
+  <footer class="footer">
+    Developed with <span class="heart"><i class="fa-solid fa-heart"></i></span> by <a
+      href="https://hassanjaveds.netlify.app/" target="_blank" rel="noopener noreferrer" class="author-link">Hassan
+      Javed</a>
+  </footer>
+  <!-- Footer start -->
 </body>
 
 </html>
